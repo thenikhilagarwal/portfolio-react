@@ -17,10 +17,10 @@ const containerVariants = {
 
 const itemVariants = {
     hidden: { opacity: 0, y: 30 },
-    visible: { 
-        opacity: 1, 
-        y: 0, 
-        transition: { type: "spring", stiffness: 50, damping: 20 } 
+    visible: {
+        opacity: 1,
+        y: 0,
+        transition: { type: "spring", stiffness: 50, damping: 20 }
     }
 };
 
@@ -28,7 +28,7 @@ export default function Banner() {
     const [displayText, setDisplayText] = useState('');
     const [isDeleting, setIsDeleting] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(0);
-    const texts = ['Web Designer.', 'Web Developer.', 'Freelancer.'];
+    const texts = ['React Developer', 'Web Designer', 'Freelancer'];
 
     useEffect(() => {
         const text = texts[currentIndex];
@@ -55,7 +55,7 @@ export default function Banner() {
     return (
         <div className="relative before:content-[''] before:absolute before:w-full before:h-full before:bg-[linear-gradient(white,transparent_1px),linear-gradient(to_right,white,transparent_1px)] before:bg-[length:100%_100px,100px_100%] before:opacity-10 before:bg-fixed before:-top-[56px]">
             <div className="container mx-auto relative">
-                <motion.div 
+                <motion.div
                     className="w-full flex flex-col text-center py-[150px] gap-6 relative z-10"
                     variants={containerVariants}
                     initial="hidden"
@@ -72,9 +72,9 @@ export default function Banner() {
                     </motion.div>
                 </motion.div>
                 <div className='absolute right-[20%] -top-[56px] -scale-x-[1]'>
-                    <motion.img 
-                        src={light} 
-                        className="w-full" 
+                    <motion.img
+                        src={light}
+                        className="w-full"
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 1.5, ease: "easeOut" }}
