@@ -48,7 +48,7 @@ const Skills = () => {
                 <h3 className="uppercase text-2xl font-bold text-white mb-[50px] text-center">
                     Crafting Digital Experiences with Modern Technologies
                 </h3>
-                <div className="grid grid-cols-6 gap-8">
+                <div className="grid xl:grid-cols-6 lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-8 xl:px-0 px-3">
 
                     {skills.map((skill, index) => {
                         return (
@@ -60,7 +60,7 @@ const Skills = () => {
                                 <div className="light-left left-0 top-0 size-50 bg-[#139bfd] rounded-full absolute -translate-x-[50%] blur-[70px] opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
                                 <div className='flex flex-col gap-3 items-center justify-center'>
                                     <img className='size-14' src={skill.img} width={'124'} height="124" />
-                                    <h6 className="text-lg text-white">{skill.name}</h6>
+                                    <p className="text-lg text-white text-center">{skill.name}</p>
                                 </div>
                             </motion.div>
                         )

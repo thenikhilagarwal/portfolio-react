@@ -56,13 +56,13 @@ export default function Banner() {
         <div className="relative before:content-[''] before:absolute before:w-full before:h-full before:bg-[linear-gradient(white,transparent_1px),linear-gradient(to_right,white,transparent_1px)] before:bg-[length:100%_100px,100px_100%] before:opacity-10 before:bg-fixed before:-top-[56px]">
             <div className="container mx-auto relative">
                 <motion.div
-                    className="w-full flex flex-col text-center py-[150px] gap-6 relative z-10"
+                    className="w-full flex flex-col text-center md:py-[150px] py-[100px] gap-6 relative z-10"
                     variants={containerVariants}
                     initial="hidden"
                     animate="visible"
                 >
                     <motion.span variants={itemVariants} className="text-xl text-white uppercase">Hello</motion.span>
-                    <motion.h1 variants={itemVariants} className="text-6xl/18 font-bold text-white">I’m Nikhil Agarwal<br />
+                    <motion.h1 variants={itemVariants} className="md:text-6xl/18 text-4xl font-bold text-white">I’m Nikhil Agarwal<br />
                         A
                         <span className="relative ms-3 text-start bg-[linear-gradient(312deg,#13fdfd_0%,#139bfd_100%)] bg-clip-text text-transparent after:content-[''] after:absolute after:w-[2px] after:h-full after:bg-white">{displayText}</span>
                     </motion.h1>

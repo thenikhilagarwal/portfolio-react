@@ -37,7 +37,7 @@ const Portfolio = () => {
     ]
 
     return (
-        <motion.div className="pt-[50px] pb-[100px]">
+        <motion.div className="pt-[50px] pb-[100px] md:px-0 px-3">
             <div className="container mx-auto">
                 <h2 className="bg-[linear-gradient(312deg,#13fdfd_0%,#139bfd_100%)] bg-clip-text text-transparent uppercase text-md text-center mb-3">Latest Portfolio</h2>
                 <h3 className="uppercase text-2xl font-bold text-white mb-[50px] text-center">
@@ -50,7 +50,7 @@ const Portfolio = () => {
                                 initial={{ opacity: 0, y: 50 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true, amount: 0.1 }}
-                                transition={{ duration: 0.6, delay: index * 0.1, type: "spring", stiffness: 50 }} key={index} className="w-[48%]">
+                                transition={{ duration: 0.6, delay: index * 0.1, type: "spring", stiffness: 50 }} key={index} className="md:w-[48%] w-full">
                                 <div className="tmponhover group flex bg-[#06131b] border-2 border-[#0c1f2e] rounded-3xl p-5 text-white h-full flex-col justify-center relative overflow-hidden before:content-[''] before:absolute before:inset-0 before:border before:border-transparent mb-5">
                                     <div className="light-left left-0 bottom-0 size-50 bg-[#139bfd] rounded-full absolute -translate-x-[50%] blur-[70px] opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
                                     <div className='overflow-hidden h-[500px] rounded-3xl group'>

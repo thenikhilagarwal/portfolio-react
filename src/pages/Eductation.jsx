@@ -50,7 +50,7 @@ const Education = () => {
 
 
     return (
-        <motion.div className="py-[50px]"
+        <motion.div className="py-[50px] px-3"
         >
             <div className="container mx-auto">
                 <h2 className="bg-[linear-gradient(312deg,#13fdfd_0%,#139bfd_100%)] bg-clip-text text-transparent uppercase text-md text-center mb-3">Work Experience</h2>
@@ -65,7 +65,7 @@ const Education = () => {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true, amount: 0.1 }}
                                 transition={{ duration: 0.6, type: "spring", stiffness: 50 }} key={index} className="w-full">
-                                <div className="tmponhover group bg-[#06131b] rounded-3xl p-10 text-white h-full flex flex-col justify-center relative overflow-hidden before:content-[''] before:absolute before:inset-0 before:border before:border-transparent">
+                                <div className="tmponhover group bg-[#06131b] rounded-3xl md:p-10 p-6 text-white h-full flex flex-col justify-center relative overflow-hidden before:content-[''] before:absolute before:inset-0 before:border before:border-transparent">
                                     <div className="light-left left-0 top-0 size-50 bg-[#139bfd] rounded-full absolute -translate-x-[50%] blur-[70px] opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
                                     <div className="flex flex-wrap items-start justify-between">
                                         <div className="">
