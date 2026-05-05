@@ -12,10 +12,10 @@ const About = () => {
                         transition={{ duration: 0.6, type: "spring", stiffness: 50 }} className="xl:w-1/2 w-full pe-3 xl:ps-0 ps-3" >
                         <div className="md:p-16 p-6 bg-[#06131b] rounded-3xl overflow-hidden relative after:bg-[#139bfd] after:absolute after:h-[474px] after:w-[474px] after:rounded-full after:right-[-150px] after:bottom-[-350px] after:blur-[200px] xl:mb-0 mb-6 ">
                             <div className="flex items-center gap-4 mb-8">
-                                <h2 className="text-[#139bfd] md:text-9xl text-7xl   font-bold">08+</h2>
+                                <h2 className="text-[#139bfd] md:text-9xl text-7xl   font-bold">05+</h2>
                                 <span className="text-white md:text-5xl/14 text-3xl/10 font-bold ">Years of<br />Experience</span>
                             </div>
-                            <p className="text-white">Frontend Developer with 8+ years of experience building responsive, highperformance web applications. Strong expertise in React, Next.js, JavaScript, HTML5, CSS3, Tailwind CSS, and WordPress. Proven ability to optimize UI performance, resolve cross-browser issues, and collaborate with backend teams to deliver scalable, user-centric solutions. Experienced in translating UI/UX designs into clean, reusable components with measurable business impact.</p>
+                            <p className="text-white">Frontend Developer with 5+ years of experience building responsive, highperformance web applications. Strong expertise in React, Next.js, JavaScript, HTML5, CSS3, Tailwind CSS, and WordPress. Proven ability to optimize UI performance, resolve cross-browser issues, and collaborate with backend teams to deliver scalable, user-centric solutions. Experienced in translating UI/UX designs into clean, reusable components with measurable business impact.</p>
                         </div>
                     </motion.div>
                     <motion.div className="xl:w-1/2 w-full xl:ps-3 ps-0 flex flex-wrap" initial={{ opacity: 0, y: 50 }}

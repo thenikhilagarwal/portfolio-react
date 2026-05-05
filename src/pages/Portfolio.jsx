@@ -1,8 +1,7 @@
-import socialwalls from '../assets/images/portfolio/socialwalls.png';
-import taggbox from '../assets/images/portfolio/taggbox.png';
-import tagembed from '../assets/images/portfolio/tagembed.png';
-import badassbacklinks from '../assets/images/portfolio/badassbacklinks.png';
-import jsonformatterpro from '../assets/images/portfolio/jsonformatterpro.png';
+import socialwalls from '../assets/images/portfolio/socialwalls-thumbnail.png';
+import taggbox from '../assets/images/portfolio/taggbox-thumbnail.png';
+import tagembed from '../assets/images/portfolio/tagembed-thumbnail.png';
+import badassbacklinks from '../assets/images/portfolio/badassbacklinks-thumbnail.png';
 import FontAwesome from '../components/FontAwesome'
 import { motion } from "framer-motion";
 
@@ -28,11 +27,6 @@ const Portfolio = () => {
             title: 'Badass Backlinks',
             href: 'https://badassbacklinks.com/',
             url: badassbacklinks
-        },
-        {
-            title: 'Json Formatter Pro',
-            href: 'https://jsonformatterpro.com/',
-            url: jsonformatterpro
         }
     ]
 
@@ -54,7 +48,7 @@ const Portfolio = () => {
                                 <div className="tmponhover group flex bg-[#06131b] border-2 border-[#0c1f2e] rounded-3xl p-5 text-white h-full flex-col justify-center relative overflow-hidden before:content-[''] before:absolute before:inset-0 before:border before:border-transparent mb-5">
                                     <div className="light-left left-0 bottom-0 size-50 bg-[#139bfd] rounded-full absolute -translate-x-[50%] blur-[70px] opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
                                     <div className='overflow-hidden h-[500px] rounded-3xl group'>
-                                        <img className='rounded-3xl object-cover object-top transition-transform duration-[5000ms] ease-linear group-hover:-translate-y-[80%]' src={port.url} width={'100%'} height={'500'} alt='socialwalls' />
+                                        <img className='rounded-3xl object-cover' src={port.url} width={'100%'} height={'500'} alt='socialwalls' />
                                     </div>
                                 </div>
                                 <div className='flex items-center justify-between'>
