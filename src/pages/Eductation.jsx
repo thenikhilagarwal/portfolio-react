@@ -30,20 +30,6 @@ const Education = () => {
                 'Debugged and optimized legacy frontend code, reducing UI-related support issues by 20%.',
                 'Ensured responsive behavior and visual consistency across devices and screen sizes.'
             ]
-        },
-        {
-            title: 'Web Designer',
-            company: 'Ahead Websoft Pvt. Ltd.',
-            starDate: 'Mar 2017',
-            endDate: 'Jul 2020',
-            tagline: 'A web development and design company',
-            desc: [
-                'Created 15+ wireframes, mockups, and interactive prototypes using Figma and Photoshop',
-                'Designed logos, banners, icons, and UI assets for multiple client websites and applications',
-                'Converted UI designs into clean HTML/CSS implementations aligned with modern design standards.',
-                'Researched and applied current UI/UX trends, improving design quality and client satisfaction.',
-                'Provided technical support and design fixes, ensuring timely project delivery'
-            ]
         }
     ]
 
