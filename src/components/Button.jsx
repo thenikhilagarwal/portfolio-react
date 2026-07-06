@@ -11,9 +11,9 @@ const Button = (props) =>{
             <img src={btnBg} className='absolute top-0 left-0 w-100 transition duration-300'/>
             <img src={btnBg2} className='absolute top-0 left-0 w-100 opacity-0 group-hover:opacity-100 transition duration-300'/>
             <span className='relative z-10'>{props.value}</span>
-            <spna className="ms-2 relative transition duration-300">
+            <span className="ms-2 relative transition duration-300">
                 <FontAwesome style="solid" name="arrow-right" className="relative"/>
-            </spna>
+            </span>
         </a>
     )
 }
