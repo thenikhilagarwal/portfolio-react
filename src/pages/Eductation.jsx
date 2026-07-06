@@ -65,7 +65,7 @@ const Education = () => {
                                         <ul className="flex flex-col gap-3 text-sm ps-5">
                                             {exp.desc.map((item, i) => {
                                                 return (
-                                                    <li className="relative"><FontAwesome style="regular" name="circle-check" className="bg-[linear-gradient(312deg,#13fdfd_0%,#139bfd_100%)] bg-clip-text text-transparent absolute left-[-22px] top-[3px]" />{item}</li>
+                                                    <li key={i} className="relative"><FontAwesome style="regular" name="circle-check" className="bg-[linear-gradient(312deg,#13fdfd_0%,#139bfd_100%)] bg-clip-text text-transparent absolute left-[-22px] top-[3px]" />{item}</li>
                                                 )
                                             })}
                                         </ul>
